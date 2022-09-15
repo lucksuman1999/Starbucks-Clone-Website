@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.top{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0,99,65,1);
+}
+
+.nav{
+    width: 100%;
+    height: 115px;
+    background-color: whitesmoke;
+}
+
+.nav img{
+    position: absolute;
+    left: 7%;
+    width: auto;
+    height: 55px;
+    top: 5%;
+
+}
+
+.nav .bar{
+    display: flex;  /*flex hum is liye use karte hai qki ek line me align karne ke liye */
+
+    list-style: none; /* Order list me jo by default aate hai ya maujud rehte hai like dots "." ya fir numberings, bullet points wo saare hat jaate hain list-style:none se; */
+    gap: 10px;
+    position: absolute;
+    top: 15%;
+    left: 7%; /* ye left texts ko right hand side me move krata hai*/
+    text-transform: uppercase; /*saare texts bade ho jaenge text-transform property se;*/
+    font-size: 14px;
+
+}
+
+.nav .bar li:hover{
+
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+.nav .loc{          /* SVG Images for location image*/
+    position: absolute;
+    right:30%;
+    top: 5%;
+    /* display: flex; */
+}
+
+.loc img{
+    width: 20px;
+}
+
+.nav p{
+    position: absolute;
+    right: 22.5%;
+    top: 8%;
+
+}
+.one img{
+    margin: -3px;
+    width: 100%;
+    height:500px;
+    
+}
+.two img{
+    margin: -3px;
+    width:100%;
+    height:500px;
+}
+.three img{
+    margin: -3px;
+    width:100%;
+    height:500px;
+    
+    
+}
+.four img{
+    width:100%;
+    height:450px;
+    margin:-3px;
+}
+
+.five img {
+    width: 100%;
+    height:450px;
+    margin:-3px;
+
+}
+.six img{
+    width:100%;
+    height:450px;
+    margin:-3px;
+}
+
+.tea{            
+    display: flex;      /* yaha pe flex use isliye kiye hai is .tea class ke saath taaki is particular div class ke andar ke saare elements align ho ek saath ek horizontal line me aa sake*/
+    align-items: center;   /* Isse saare items us class ke centred ho jaenge*/
+}
+.tea img{
+   
+    padding: 77px 122px 100px;
+
+}
+.tea .text1{
+    /* width: 50%; */
+    padding: 50px 20px  50px 100px;
+}
+.tea .text1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tea .text1 p{
+    padding-top:13px;
+    display:inline-block;
+}
+.manpower{
+    display:flex;
+    align-items:center;
+}
+.manpower img{
+
+    position:absolute;
+    width: 35%;
+    left:58%;
+    padding-top:389px;
+
+}
+.manpower .text2 h2{
+    position: absolute;
+    left: 156px;
+    margin-top: 70px;
+}
+
+.manpower .text2 p{
+    position: absolute;
+    left: 156px;
+    margin-top: 110px;
+}
+.footer{
+    width:100%;
+    height:108px;
+    background-color: whitesmoke;
+
+    margin-top:34%;
+    display: flex;
+    align-items: center;
+    
+}
+.footer .one-img{
+    width: 2%;
+    /* margin-left:151px; */
+    position: absolute;
+    left: 9%;
+    
+}
+.footer .two-img{
+    position: absolute;
+    left: 12%;
+    width: 2%;
+}
+
+.footer .there-img{
+    position: absolute;
+    left: 16%;
+    width: 2%;
+}
+.footer2{
+    width:100%;
+    height:200px;
+    background:#fff;
+    padding-top:50px;
+    padding-bottom:80px;
+    position: absolute;
+  
+}
+.footer2 .About{
+
+    display: flex; 
+    list-style: none;
+    gap: 45px;
+    /* top: 25%; */
+    font-weight: bold;
+    left: 9%;
+    font-size: 15px;
+    position: absolute;
+    color: #000;
+    text-transform: none;
+}
+
+.footer2 .About li a{
+    text-decoration: none; /*ye isliye taaki texts ke neeche kuc bhi extra naa aaye jaise ki underlined etc. */
+    color: #000; /* anchor tag <a></a> tag me by default text colour purple aata hai isliye colour black kiya hai taaki wo purple naa rahe */
+    cursor: pointer;
+}
+.footer2 .About li a:hover{
+
+    cursor: pointer;
+    color: grey; /* color isliye use kiye qki sirf text kaa hi colour change ho raha hai background ka nahi*/
+}
+.footer2 .our{
+    display: flex;
+    list-style: none;
+    position:absolute;
+    padding-top: 40px;
+    color: lightgray;
+    gap: 35px;
+    left:8.8%;
+}
+.footer2 .our li a{
+    text-decoration: none;
+    color:#000;
+    font-weight:lightgray;
+}
+.footer2 .our li a:hover{
+    color: grey;
+    cursor: pointer;
+}
+.footer2 p{
+    display:flex;
+    list-style: none;
+    padding-top: 80px;
+    left:8.8%;
+    position:absolute; /* position:absolute hoga tabhi jaakr wo left ya right move karega extreme corner position se utna move karega jitna hm usse left right etc me move karenge. */
+}
+.footer2 p a{
+    text-decoration: none;
+    color:#000;
+    font-weight:gray;
+}
+.footer2 p a:hover{
+    cursor: pointer;
+    color: grey;
+}
+.footer2 .web{
+    display:flex;
+    list-style: none;
+    padding-top:160px;
+    position:absolute;
+    gap: 10px;
+    left:10%;
+}
+.footer2 .web li a{
+    text-decoration: none;
+    color:black;
+    font-weight:gray;
+}
+.footer2 .web li a:hover{
+    cursor: pointer;
+    color:grey;
+}
+.footer2 h4{
+    display:flex;
+    font-size:10px;
+    font-weight: lighter;
+    position:absolute;
+    padding-top: 200px;
+    left: 10%;
+
+}
+
+
